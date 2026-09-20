@@ -16,6 +16,8 @@ npm run preview    # 빌드 결과 미리보기
 npm test           # 단위·통합 테스트
 ```
 
+**배포 주소: https://utggo00-del.github.io/Urban-Green-Thumb/** — `main` 브랜치에 푸시하면 GitHub Actions([.github/workflows/deploy.yml](.github/workflows/deploy.yml))가 테스트와 빌드를 거쳐 GitHub Pages에 자동 배포합니다.
+
 `npm run build`로 만든 `dist/`는 GitHub Pages·Netlify·Vercel 같은 정적 호스팅에 그대로 올릴 수 있습니다. (`HashRouter`와 상대 경로 `base: './'`를 써서 새로고침·하위 경로 배포에도 깨지지 않습니다.)
 
 ## 시연 순서 (심사위원용)
