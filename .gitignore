@@ -1,0 +1,7 @@
+node_modules
+dist
+*.local
+.DS_Store
+.claude/
+# 로고 원본(5MB). 앱에는 잘라서 줄인 src/assets/logo-haero-toro.jpg만 쓴다.
+해로토로 농사.png
