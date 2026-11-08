@@ -84,7 +84,7 @@ export default function Privacy() {
       <Notice tone="warn">
         <p className="font-bold">이 문서는 예시 문구예요.</p>
         <p className="text-sm">
-          대회 출품용 프로토타입이라 실제 처리방침이 아니에요. 이 화면의 모든 이름·연락처·계좌는 <strong>가상 데이터</strong>이며, 입력한 내용은 이 브라우저(localStorage)에만 저장되고 서버로 전송되지 않아요. 실제 개인정보는 입력하지 마세요.
+          대회 출품용 프로토타입이라 실제 처리방침이 아니에요. 이용자·제공자·위원의 이름·연락처·계좌는 <strong>가상 데이터</strong>예요. “시흥시 실제 운영 텃밭”의 농장 이름·전화번호·홈페이지만 공개된 출처에서 가져온 실제 정보예요. 입력한 내용은 이 브라우저(localStorage)에만 저장되고 서버로 전송되지 않아요. 실제 개인정보는 입력하지 마세요.
         </p>
       </Notice>
 

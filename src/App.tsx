@@ -27,6 +27,7 @@ import MyApplications from './pages/citizen/MyApplications';
 import Helper from './pages/citizen/Helper';
 import CitizenNotices from './pages/citizen/Notices';
 import MyPlots from './pages/citizen/MyPlots';
+import RealFarmDetail from './pages/citizen/RealFarmDetail';
 import Register from './pages/citizen/Register';
 import RegisterNew from './pages/citizen/RegisterNew';
 import AgendaDetail from './pages/committee/AgendaDetail';
@@ -51,6 +52,7 @@ export default function App() {
             <Route index element={<CitizenHome />} />
             <Route path="gardens" element={<GardenSearch />} />
             <Route path="gardens/:id" element={<GardenDetail />} />
+            <Route path="farms/:id" element={<RealFarmDetail />} />
             <Route path="apply" element={<Apply />} />
             <Route path="my/applications" element={<MyApplications />} />
             <Route path="my/plots" element={<MyPlots />} />

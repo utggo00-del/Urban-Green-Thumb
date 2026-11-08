@@ -1,4 +1,4 @@
-import { CalendarDays, ChevronRight, Megaphone, Sparkles, Sprout } from 'lucide-react';
+import { CalendarDays, ChevronRight, MapPin, Megaphone, Sparkles, Sprout } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Badge, Notice as Callout } from '../../components/Badge';
 import {
@@ -11,6 +11,7 @@ import {
   openRecruitments,
   recruitmentsOf,
 } from '../../data/selectors';
+import { REAL_FARMS } from '../../data/realFarms';
 import { useDb, useSession } from '../../data/useDb';
 import { dDayLabel, formatDate, formatDateTime } from '../../lib/date';
 import { APPLICATION_STATUS, GARDEN_STATUS } from '../../lib/labels';
@@ -113,6 +114,9 @@ export default function CitizenHome() {
             </Link>
             <Link to="/helper" className="btn btn-secondary w-full">
               <Sparkles aria-hidden className="size-5" /> 나에게 맞는 텃밭 추천받기
+            </Link>
+            <Link to="/gardens?tab=real" className="btn btn-secondary w-full">
+              <MapPin aria-hidden className="size-5" /> 시흥시 실제 운영 텃밭 {REAL_FARMS.length}곳 보기
             </Link>
           </div>
         </section>

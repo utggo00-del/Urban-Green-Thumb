@@ -39,7 +39,7 @@ export function DemoBar() {
     <div className="bg-leaf-800 text-cream">
       <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-2 lg:flex-row lg:items-center lg:justify-between">
         <p className="text-sm leading-snug">
-          <strong>시연용 가상 데이터</strong> · 기준일 {formatDate(today)}
+          <strong>시연용 가상 데이터 + 시흥시 실제 텃밭 정보</strong> · 기준일 {formatDate(today)}
           <span className="hidden sm:inline"> · 로그인 없이 역할을 바꿔 볼 수 있어요</span>
           <span className="hidden xl:inline"> (실서비스에서는 인증으로 대체)</span>
         </p>

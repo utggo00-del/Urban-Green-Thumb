@@ -171,6 +171,8 @@
 .garden-pin[data-kind='공공'] { background: var(--color-leaf-700); }
 .garden-pin[data-kind='민간'] { background: var(--color-clay-700); }
 .garden-pin[data-kind='개인'] { background: var(--color-sky-800); }
+/* 실제 운영 텃밭: 색과 함께 모양(둥근 사각형)으로도 구분 */
+.garden-pin[data-kind='실제'] { background: var(--color-amber-800); border-radius: 8px; }
 .garden-pin[data-selected='true'] {
   outline: 4px solid var(--color-amber-800);
   transform: scale(1.2);
